@@ -9,10 +9,8 @@ let color = []
 
 click.addEventListener('click', (e) => {
     e.preventDefault();
-    const randomColor = Math.floor(Math.random()*16777215).toString(16);
     count++;
     click.innerHTML = count;
-    body.style.background = "#"+ randomColor;
 })
 reset.addEventListener('click', (e) => {
     e.preventDefault();
